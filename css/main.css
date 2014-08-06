@@ -1,0 +1,96 @@
+body {
+	font-size: 14px;
+	color: black;
+	background-color: #ACF2D1;
+	margin: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 20px;
+}
+
+/* Sivun otsikko */
+
+h1 {
+	font-size: 4em;
+	color: black;
+	font-style: bold;
+	text-align: center;
+	letter-spacing: 0.5em;
+}
+
+/* Mahdollinen huomautusteksti */
+
+#Huom {
+	background-color: #FABEDA;
+}
+
+/* Navbarin div */
+
+#navbar {
+	width: 100%;
+	text-align: center;
+}
+
+/* Navbarin "napit" */
+
+.isonappi {
+	font-size: 2em;
+	color: black;
+	background-color: #55AB83;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #60BF93;
+	border-radius: 5px;
+	width: 25%
+	text-align: center;
+	padding: 5px;
+}
+
+.isonappi:hover {
+	background-color: #0DFF8E;
+	font-weight: bold;
+}
+
+/* Taulukko mis listataa luokat/askareet */
+
+table {
+	background: -webkit-linear-gradient(bottom, #D9FCEC, #ACF2D1);	
+	background: linear-gradient(to bottom, #D9FCEC,#ACF2D1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	width: 100%;
+}
+
+/* Taulukon "napit" */
+
+.pikkunappi {
+	color: black;
+	background-color: #55AB83;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #60BF93;
+	border-radius: 5px;
+}
+
+.pikkunappi:hover {
+	background-color: #0DFF8E;
+	font-weight: bold;
+}
+
+/* linkkien oletusasetusten mitätöinti */
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+em {
+	font-style: normal;
+}
+
+/* Footer? */
+
+/* Lomakkeelle tyyli? */
