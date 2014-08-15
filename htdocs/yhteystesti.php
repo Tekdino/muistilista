@@ -1,7 +1,7 @@
 <?php
 
 $tunnus = "Touati";
-$salasana= "pistepiste1";
+$salasana= "Hagakure99";
 
 $yhteys = new PDO("pgsql:");
 $yhteys->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);

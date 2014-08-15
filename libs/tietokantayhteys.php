@@ -7,7 +7,7 @@ function getTietokantayhteys() {
 	if ($yhteys == null) {
 
 	$yhteys = new PDO('psql:');
-	$yhteys->setAttribute(PDO::AFTER_ERRMODE,PDO::ERRMODE_EXCEPTION);
+	$yhteys->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 	}
 
 	return $yhteys;

@@ -10,13 +10,6 @@ $lista = Asiakas::etsiKaikkiAsiakkaat();
 <html>
 <head><title>Tietokantatesti</title></head>
 <body>
-<?php echo $asia->etsiKaikkiAsiakkaat(); ?>
 
-<h1>Tietokantatesti</h1>
-<ul>
-<?php foreach($asia) { ?>
-<li><?php echo $asia; ?></li>
-<?php } ?>
-</ul>
 
 </body>
